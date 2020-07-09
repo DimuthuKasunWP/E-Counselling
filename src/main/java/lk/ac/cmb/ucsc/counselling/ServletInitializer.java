@@ -1,4 +1,4 @@
-package lk.ac.cmb.ucsc.counselling.Ecounselling;
+package lk.ac.cmb.ucsc.counselling;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
