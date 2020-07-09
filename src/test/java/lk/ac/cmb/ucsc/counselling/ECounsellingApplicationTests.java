@@ -1,4 +1,4 @@
-package lk.ac.cmb.ucsc.counselling.Ecounselling;
+package lk.ac.cmb.ucsc.counselling;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
