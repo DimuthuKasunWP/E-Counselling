@@ -94,7 +94,7 @@ public class UserService {
             Password pw=passwordRepository.save(temp);
 
             //verification
-            emailService.sendSimpleMessage(user.getEmail(),"Welcome to Euphoria","Please click the following link to verify your account \n"+link+"/"+user.getEmail());
+            emailService.sendSimpleMessage(user.getEmail(),"Welcome to E Counselling","Please click the following link to verify your account \n"+link+"/"+user.getEmail());
 
             user.setActivated("no");
             user.setAccount_type("quick");
@@ -125,7 +125,7 @@ public class UserService {
                 return false;
             }
             //verification
-            emailService.sendSimpleMessage(user.getEmail(),"Welcome to Euphoria","Please click the following link to verify your account \n"+link+"/"+user.getEmail());
+            emailService.sendSimpleMessage(user.getEmail(),"Welcome to E Counselling","Please click the following link to verify your account \n"+link+"/"+user.getEmail());
 
         }
 
