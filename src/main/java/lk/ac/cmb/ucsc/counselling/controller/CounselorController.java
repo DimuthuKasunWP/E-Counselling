@@ -80,7 +80,7 @@ public class CounselorController {
     @CrossOrigin
     @GetMapping(path = "/testMail")
     public void sendTestMail(){
-        emailService.sendSimpleMessage("m.iddamalgoda@gmail.com","TestMail","This is a test mail from euphoria");
+        emailService.sendSimpleMessage("kasunwpdimuthu@gmail.com","TestMail","This is a test mail from E-Counselling");
     }
 
 }
